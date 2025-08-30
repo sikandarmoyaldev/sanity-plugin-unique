@@ -43,3 +43,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 - **Unique validator bug**: now correctly excludes drafts and the current document from uniqueness checks.  
   This prevents false positives when updating a document’s own field (e.g., updating username `sikandardev`).
+
+---
+
+## [1.0.2] - 2025-08-30
+
+### Fixed
+
+- **Unique validator bug**: properly excludes drafts and the current document when checking for uniqueness.  
+  Prevents false positives when updating a document’s own field (e.g., updating username `sikandardev`).
+- Stable replacement for the yanked `1.0.1` release.
