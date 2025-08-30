@@ -1,0 +1,48 @@
+{
+    "name": "sanity-plugin-unique",
+    "version": "1.0.0",
+    "description": "Sanity plugin for validating unique string fields across documents.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepare": "tsc",
+        "format": "prettier --write ."
+    },
+    "keywords": [
+        "sanity",
+        "sanity-plugin",
+        "validation",
+        "unique",
+        "string-field",
+        "sanity-studio"
+    ],
+    "author": {
+        "name": "Sikandar",
+        "email": "sikandar.moyal.dev@gmail.com",
+        "url": "https://github.com/sikandarmoyaldev"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sikandarmoyaldev/sanity-plugin-unique.git"
+    },
+    "bugs": {
+        "url": "https://github.com/sikandarmoyaldev/sanity-plugin-unique/issues"
+    },
+    "homepage": "https://github.com/sikandarmoyaldev/sanity-plugin-unique#readme",
+    "dependencies": {
+        "sanity": "^3.30.0"
+    },
+    "devDependencies": {
+        "groq": "^4.6.0",
+        "prettier": "^3.3.3",
+        "typescript": "^5.5.0"
+    },
+    "peerDependencies": {
+        "sanity": "^3.30.0"
+    }
+}
